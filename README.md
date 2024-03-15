@@ -12,6 +12,6 @@
 
      $decodedBytes = [System.Convert]::FromBase64String($Base64String)
      return [System.Text.Encoding]::UTF8.GetString($decodedBytes)
- } #
+ } 
 
 #To decode    Invoke-Base64Decode "UUR5d3YwZGZYTFlpYVZJWHVwc3ZrNGdVQmpvMVFOallwQ1JpeUE2Mw=="
