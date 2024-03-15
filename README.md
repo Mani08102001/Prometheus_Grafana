@@ -3,7 +3,8 @@
 #To get a base64 code  kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}"
 
 #To enable base64 to plain text
-function Invoke-Base64Decode {
+
+# function Invoke-Base64Decode {
      param (
          [Parameter(Mandatory=$true)]
          [string]$Base64String
